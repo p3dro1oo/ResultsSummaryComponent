@@ -1,0 +1,121 @@
+*{
+    font-family: Hanken Grotesk;
+}
+body{ 
+    background-color: rgb(223, 223, 223)
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10em;
+   
+    
+}
+
+section{
+background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+width: 400px;
+height: 600px;
+border-radius: 30px;
+position:static;
+}
+
+section h2{
+    color: hsla(0, 0%, 100%, 0.74);
+    margin: 50px;
+}
+
+section h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+}
+
+section p{
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.74);
+}
+.circle{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.overall{
+  font-size: 70px;
+ padding-top: 40px;
+ color: #fff;
+}
+
+.circle p{
+    position: relative;
+    bottom: 3.5em;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.37);
+}
+
+main{
+    background-color: #fff;
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+main h1{
+    text-align: start;
+    padding-left: 1.3em;
+    margin-top: 50px;
+    margin-bottom:1em ;
+}
+
+main ul{
+    list-style-type: none;
+    text-align: start;
+    width: 330px;
+    
+}
+ main li{
+    margin-bottom: 1.5em;
+    padding: 15px;
+    border-radius: 15px;
+ }
+.reaction{
+    
+    background-color: hsla(0, 100%, 67%, 0.096);
+    
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.096);
+}
+
+.verbal{
+    background-color: hsl(166, 100%, 37%, 0.096);
+}
+
+.visual{
+    background-color: hsl(234, 85%, 45%, 0.096);
+}
+
+
+.btn{
+    display: flex;
+    justify-content: start;
+    margin: 2.5em;
+    margin-top: 4em;
+}
+button{
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+    border-style: none;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    font-size: 18px;
+    color: #fff;
+}
+
+button:hover{
+    background-image: linear-gradient(hsla(252, 100%, 67%, 0.753), hsla(241, 81%, 54%, 0.753));
+    color: rgb(0, 0, 0);
